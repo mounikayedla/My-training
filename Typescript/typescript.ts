@@ -1,0 +1,13 @@
+var x=10;
+var y="hii";
+var z=true;
+var a:number=10;
+var b:String;
+let str1:String[]=["Hello","world"];
+let str2arr:Array<String>=["Hello","world"];
+let anyArray:any[]=['Hello',10,true];
+let myTuple:[String,number]=["hi",10];
+console.log(myTuple[0]);
+console.log(myTuple[1]);
+//myTuple[2]=100;
+//console.log(myTuple[2]);
