@@ -1,0 +1,19 @@
+.navbar{
+
+    justify-content: space-between;
+
+    background-color: rgb(233, 68, 18);
+
+     height: 50px;
+
+   
+
+   
+
+}
+
+button{
+
+    padding-right: 1rem;
+margin: 1px;
+   }

@@ -1,0 +1,79 @@
+.pimg1,.pimg2, .pimg3{
+    position: relative;
+    /* opacity: 0.70; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+/*
+  fixed= parallax
+  scroll = normal
+*/
+    background-attachment: fixed;
+}
+.pimg1{
+    background-image: url('/assets/ht1.jpg');
+    min-height: 500px;
+}
+.pimg2{
+    background-image: url('/assets/ht2.jpg');
+    min-height: 500px;
+}
+.pimg3{
+    background-image: url('/assets/ht3.webp');
+    min-height: 1000px;
+}
+.section{
+    text-align: center;
+    padding: 50px;
+    
+
+}
+.section-light{
+    background-color: #f4f4f400;
+    color: #666;
+
+}
+.section-drak{
+    background-color: #282e34;
+    color: #ddd;
+
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext .border{
+    background-color: #111;
+    color:#fff;
+    padding: 20px;
+}
+.ptext .border.trans{
+    background-color: transparent;
+}
+@media  (max-width: 568px){
+.pimg1, .pimg2, .pimg3{
+    background-attachment: scroll;
+}
+}
+div{
+
+    margin: right 80px;
+
+     font-size: 20px;
+
+     text-decoration-color: black;
+
+     
+
+   
+
+   
+
+}
+
