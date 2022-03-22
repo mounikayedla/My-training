@@ -1,0 +1,1 @@
+ export let name2="Mounika";
