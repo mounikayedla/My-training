@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+    /* margin: 2px; */
+    /* padding: 2px; */
+}
+div{
+    text-align: center;
+    background-origin: border-box;
+    
+}
+.booking-form-box
+{
+  max-width:400px;
+  border: 1px solid #ced4da;
+  margin: 10px auto 0;
+}
+
+.booking-form{
+  max-width:300px;
+
+  border: 1px solid white;
+  margin: 10px auto 0;
+  padding: 0 20px 20px
+}
+
+
+.booking-form label{
+   margin-bottom: 5px;
+   margin-top: 10px;
+   font-size: 12px;
+   color: red;
+}
+input::placeholder{
+   color: blue !important
+}
+.form-control{
+   font-size: 12 px !important;
+   border-radius: 0 !important;
+   color: blue !important;
+   background:transparent;
+   box-shadow:none;
+}
+.example-spacer{
+   flex: 1 1 auto;
+}
+.form-footer{
+    position: relative;
+}
+.mat-typography{
+    background-image: url("/assets/istock.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: cover;
+}

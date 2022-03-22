@@ -1,0 +1,108 @@
+<body class="mat-typography">
+        <div>
+          <div class="booking-form">
+            <label>Name</label>
+            <input type="text" class="form-control" placeholder="Name" required>
+              
+          <div class="input-grp">
+            <label>check-in</label>
+            <input type="date" class="form-control select-date" required>
+          </div>
+          <div class="input-grp">
+            <label>Check-out</label>
+            <input type="date" class="form-control select-date" required>
+          </div>
+          <div class="booking-form">
+            <label>NoOfGuests</label>
+            <input type="number" class="form-control" placeholder="NoOfGuests" required>
+          </div>
+          
+
+
+  <div class="form-footer">
+    <a color=primary mat-raised-button (click)="confirm()">Confirm Booking </a> <br>
+   </div>
+   <br>
+   <div>
+    <a  color=accent mat-raised-button routerLink="/">Cancel </a>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="text-center ">
+      <div class="first">
+      <h1 style="color:rgb(255, 60, 0)">Welcome to Family Hotel</h1>
+      <h3 style="color:aqua">A Best Place To Stay</h3>
+      <body class="mat-typography">
+      <div>
+        <mat-form-field>
+          <input matInput placeholder="Name" formControlName="name">
+          <mat-error *ngIf="!loginForm.get('name')?.errors?.required && (loginForm.get('name')?.errors?.pattern)">
+            Please enter a valid name address
+          </mat-error>
+          <mat-error *ngIf="loginForm.get('name')?.invalid && (loginForm.get('name')?.dirty || loginForm.get('name')?.touched) && loginForm.get('name')?.errors?.required">
+            Name is required
+          </mat-error>
+      </mat-form-field>
+      </div>
+      
+      <div class="input-grp">
+        <label>Check-In</label>
+        <input type="date" class="form-control select-date" required>
+      </div>
+      <div class="input-grp">
+        <label>Check-Out</label>
+        <input type="date" class="form-control select-date" required>
+      </div>
+     <div>
+      <label for="quantity">No of Guests:</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="50">
+     </div>
+
+
+        <div class="form-footer">
+          <a  mat-raised-button color="primary" routerLink="/payment">Confirm Booking </a>
+         
+          <a mat-raised-button color="accent" routerLink="">Cancel </a>
+        </div>
+        </body>
+        <!-- <nav>
+          
+           <a routerLink="/payment" routerLinkActive="active">NEXT</a><br> 
+          
+        </nav> -->
+         
+          
+              
+               
+               
+                
+          
+

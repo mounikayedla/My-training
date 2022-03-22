@@ -1,0 +1,40 @@
+<section class="header">
+        <img src="/assets/hotellogo.webp" height="150px" width="150px" style="border-radius: 50%;"
+            alt="..."> 
+<section class="center">
+    <h2 style="text-align:center;color: orangered">[.....All Room Details.....]</h2>
+
+</section>  
+<!-- table -->
+<table class="table table-hover table-dark table-bordered" style="text-align: center;">
+    <thead>
+        <tr>
+            <th>Room Id</th>
+            <th>Room Charges</th>
+            <th>Type</th>
+            <th>Description</th>
+            <th>Availability</th>
+            <th>SelectRoom</th>
+            <th>Cancel the Room</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let room of rooms">
+            <td>{{room.roomId}}</td>
+            <td>{{room.roomCharges}}</td>
+            <td>{{room.roomType}}</td>
+            <td>{{room.roomDesc}}</td>
+             <!-- <td>{{room.roomAvl}}</td>  -->
+            <td> <input type="checkbox" [checked]="room.roomAvl" disabled style="margin-left:50px;"></td>
+            
+            <td>
+                <button class="btn btn-success" type="button"  (click)="select()">SELECT</button>
+        </td>
+        
+        <td>
+            <button class="btn btn-danger" type="button"  (click)="cancel()"><mat-icon>cancel</mat-icon></button>
+    </td>
+        </tr>
+    </tbody>
+</table>
