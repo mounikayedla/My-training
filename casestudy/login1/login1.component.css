@@ -1,0 +1,33 @@
+.text-center{
+    text-align: center;
+    color: aliceblue;
+}
+.example-container{
+    height: 50%;
+    width: 20%;
+    text-align: left;
+}
+.d-flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mat-form-field{
+    width: 100%;
+}
+
+.mt-top{
+    margin-top: 30px;
+}
+.mt-top-2{
+    margin-top: 10px;
+}
+.bg-img{
+    background-image: url("/assets/lg.jpg") ;
+    position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height:100%
+    
+  }
